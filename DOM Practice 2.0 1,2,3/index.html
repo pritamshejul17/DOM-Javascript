@@ -86,5 +86,14 @@
         </li>
       </ul>
     </footer>
+
+    <script>
+        const ele = document.createElement('li');
+        const inner = document.createElement('a');
+        inner.innerText = "Hire Me";
+        ele.appendChild(inner);
+        const list = document.querySelector('ul');
+        list.append(ele);
+    </script>
   </body>
 </html>
